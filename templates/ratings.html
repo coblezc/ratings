@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cabinet Ratings</title>
+</head>
+<body>
+
+    <h3>Cabinet Ratings</h3>
+
+    <ol>
+    {% for key, value in cabinetRated.items() %}
+        <!-- <li>{{ key }}</li> -->
+        <li>{{ value[0] }}{{ value[1] }}{{ value[2][0] }}</li>
+    {% endfor %}
+    </ol>
+
+
+</body>
+</html>
